@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.app-tips {
+  align-items: center;
+}
+
+.app-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-container {
+  width: 400px;
+  height: 500px;
+  background-color: #eee;
+  overflow-y: scroll;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.input-container {
+  margin-top: 16px;
+  display: flex;
+}
+
+.input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.submit-button {
+  padding: 8px 16px;
+  background-color: #0084ff;
+  border: none;
+  border-radius: 4px;
+}
